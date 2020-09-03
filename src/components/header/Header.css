@@ -39,8 +39,9 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
+  color: #db820d;
+  font-family: "Long Cang";
+  font-size: 36px;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
@@ -52,6 +53,11 @@
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+}
+
+.menu{
+  font-family: "Poppins";
+  font-size: 18px;
 }
 
 /* menu icon */

@@ -7,7 +7,7 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
+  username: "Akniyet Maratov",
   title: "Hi everybody, I'm Akniyet",
   subTitle: emoji("If you have awesome business idea, let me help your idea come true. I am that developer who has experience of building Web, Mobile and Desktop applicantions with React.js / JavaScript / Flutter / Dart / Spring boot / Java and some other new technologies"),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
@@ -154,7 +154,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "maknie", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -180,36 +180,36 @@ const bigProjects = {
 
 const achievementSection = {
 
-  // title: emoji("Achievements And Certifications 🏆 "),
-  // subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements And Certifications 🏆 "),
+  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
-    // {
-    //   title: "Google Code-In Finalist",
-    //   subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-    //   image: require("./assets/images/codeInLogo.webp"),
-    //   footerLink: [
-    //     { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-    //     { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-    //     { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-    //   ]
-    // },
-    // {
-    //   title: "Google Assistant Action",
-    //   subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-    //   image: require("./assets/images/googleAssistantLogo.webp"),
-    //   footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    // },
+    {
+      title: "Google Code-In Finalist",
+      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      footerLink: [
+        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+      ]
+    },
+    {
+      title: "Google Assistant Action",
+      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+    },
 
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   footerLink: [
-    //     { name: "Certification", url: "" },
-    //     { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-    //   ]
-    // }
+    {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      footerLink: [
+        { name: "Certification", url: "" },
+        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+      ]
+    }
   ]
 };
 
@@ -264,7 +264,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Want me to develop your product ? My Inbox is open for all.",
+  subtitle: "Want me to develop your product ? It's easy to hit me on email.",
   number: "+7 707 408 85 81",
   email_address: "maratov.maknie@gmail.com"
 };
