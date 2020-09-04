@@ -39,12 +39,17 @@
   line-height: normal;
 }
 .header .logo-name {
-  color: #db820d;
+  color: #96959a;
+  letter-spacing: 3px;
   font-family: "Long Cang";
   font-size: 36px;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+}
+
+.header .logo-name:hover {
+  color: #6c63ff;
 }
 
 /* menu */

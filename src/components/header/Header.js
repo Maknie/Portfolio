@@ -1,10 +1,9 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import {greeting, workExperiences} from "../../portfolio";
+import {greeting} from "../../portfolio";
 
 function Header() {
-  const exp = workExperiences.viewExperiences;
   return (
     <Headroom>
       <header className="header">
@@ -21,11 +20,6 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          { exp === true &&
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
-          }
           <li>
             <a href="#projects">Projects</a>
           </li>

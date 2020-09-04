@@ -118,36 +118,36 @@ const techStack = {
 
 // Your top 3 work experiences
 
-const workExperiences = {
-  viewExperiences: false, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-  ]
-};
+// const workExperiences = {
+//   viewExperiences: false, //Set it to true to show workExperiences Section
+//   experience: [
+//     // {
+//     //   role: "Software Engineer",  
+//     //   company: "Facebook",
+//     //   companylogo: require("./assets/images/facebookLogo.png"),
+//     //   date: "June 2018 – Present",
+//     //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+//     //   descBullets: [
+//     //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//     //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+//     //   ]
+//     // },
+//     // {
+//     //   role: "Front-End Developer",   
+//     //   company: "Quora",
+//     //   companylogo: require("./assets/images/quoraLogo.png"),
+//     //   date: "May 2017 – May 2018",
+//     //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+//     // },
+//     // {
+//     //   role: "Software Engineer Intern",  
+//     //   company: "Airbnb",
+//     //   companylogo: require("./assets/images/airbnbLogo.png"),
+//     //   date: "Jan 2015 – Sep 2015",
+//     //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+//     // },
+//   ]
+// };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -162,16 +162,12 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "HUMBLE LIST OF COMPANIES WHO I COULD WITH THEIR IDEAS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/AlaskasPVlogo.webp"),
+      link: "https://immense-beyond-40947.herokuapp.com/"
     }
   ]
 };
@@ -276,4 +272,4 @@ const twitterDetails = {
   // userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
