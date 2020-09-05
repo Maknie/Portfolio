@@ -10,7 +10,7 @@ const greeting = {
   username: "Akniyet Maratov",
   title: "Hi everybody, I'm magician with",
   subTitle: emoji("If you have awesome business idea let me help your idea come true. I am that developer who has experience of building Web, Mobile and Desktop applicantions with React.js / JavaScript / Flutter / Dart / Spring boot / Java and some other new technologies"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/17rZVhc-Z2OnNq1DfewoGFGXRM0q--ruc/view?usp=sharing"
 };
 
 // Your Social Media Link
