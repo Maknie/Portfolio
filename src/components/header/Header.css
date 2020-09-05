@@ -14,7 +14,7 @@
   overflow: hidden;
 }
 .grey-color {
-  color: #868e96;
+  color: #96959a;
 }
 
 .header li a {
@@ -48,9 +48,6 @@
   padding: 0 10px;
 }
 
-.header .logo-name:hover {
-  color: #6c63ff;
-}
 
 /* menu */
 
